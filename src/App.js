@@ -7,11 +7,10 @@ import {
   Button,
   Heading,
   Image,
-  Card,
   Table, TableBody, TableHead, TableCell, TableRow
 } from "@aws-amplify/ui-react";
 import { API,graphqlOperation } from 'aws-amplify';
-import { theme } from './theme';
+//import { theme } from './theme';
 import { useState } from 'react';
 import { getNote } from './graphql/queries';
 import React from 'react';
@@ -176,7 +175,6 @@ const ReturnTable = ({itemlist,deleteItem}) => {
   const items = itemlist
 
   return (
-  <Card>
   <Flex direction="column">
   <Table
   caption="CheckOut"
@@ -204,7 +202,6 @@ const ReturnTable = ({itemlist,deleteItem}) => {
     </Table>
     <Button>Check Out</Button>
     </Flex>
-    </Card>
 
   
   )
@@ -265,7 +262,7 @@ const Example = ({imageSrc,productTitle,description,addToCart}) => {
 
   const { tokens } = useTheme();
   return (
-    <Card>
+
       <Flex direction="row" alignItems="flex-start">
         <Image src={imageSrc}
           alt="Grey chair" width="8rem"/>
@@ -297,7 +294,6 @@ const Example = ({imageSrc,productTitle,description,addToCart}) => {
           </Flex>
         </Flex>
       </Flex>
-    </Card>
   )
 }
 
