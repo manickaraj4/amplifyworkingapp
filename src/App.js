@@ -1,6 +1,6 @@
 
 import logo from './logo.svg';
-import "@aws-amplify/ui-react/styles.css";
+//import "@aws-amplify/ui-react/styles.css";
 import {
   ThemeProvider, Text, Flex, Badge, StepperField, useTheme,
   withAuthenticator,
