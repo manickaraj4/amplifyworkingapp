@@ -2,13 +2,11 @@
 import logo from './logo.svg';
 //import "@aws-amplify/ui-react/styles.css";
 import {
-  ThemeProvider, Text, Flex, Badge, StepperField, useTheme,
-  withAuthenticator,
+  Text, Flex, Badge, StepperField, useTheme,
   Authenticator,
   Button,
   Heading,
   Image,
-  View,
   Card,
   Table, TableBody, TableHead, TableCell, TableRow
 } from "@aws-amplify/ui-react";
@@ -150,7 +148,7 @@ function MainView() {
   
   //console.log(items.length)
   return (
-    <ThemeProvider theme={theme}>
+
       <div>
 
       <Example imageSrc="https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=930&q=80"
@@ -161,7 +159,7 @@ function MainView() {
        <ReturnTable itemlist={items} deleteItem={deleteItems} />
 
        </div>
-    </ThemeProvider>
+
   )
 }
 
