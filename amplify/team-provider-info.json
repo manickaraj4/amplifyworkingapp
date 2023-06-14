@@ -10,6 +10,11 @@
       "StackName": "amplify-amplifyapp-kwaski-213113",
       "StackId": "arn:aws:cloudformation:us-east-1:357880228549:stack/amplify-amplifyapp-kwaski-213113/b31e0800-0acc-11ee-a36a-12768315b5d1",
       "AmplifyAppId": "d3rsxbg54c22ya"
+    },
+    "categories": {
+      "function": {
+        "amplifyapp6d8ebe59": {}
+      }
     }
   },
   "staging": {
