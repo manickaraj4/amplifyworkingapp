@@ -14,3 +14,5 @@ frontend:
   artifacts:
     discard-paths: yes
     baseDirectory: public
+    files:
+      - '**/*'
