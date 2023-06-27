@@ -2,6 +2,12 @@
   "function": {
     "amplifyapp6d8ebe59": {
       "build": true,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "amplifyappb226a77f": {
+      "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
     }
