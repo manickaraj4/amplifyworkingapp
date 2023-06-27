@@ -3,7 +3,7 @@ backend:
   phases:
     preBuild:
       commands:
-	- ls -l /usr/bin/python3
+        - ls -l /usr/bin/python3
     build:
       commands:
         - amplifyPush --simple
