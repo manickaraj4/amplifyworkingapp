@@ -49,13 +49,13 @@
             "FunctionName": {
                 "Fn::If": [
                     "ShouldNotCreateEnvResources",
-                    "amplifyappb226a77f",
+                    "pythontesting",
                     {
 
                         "Fn::Join": [
                             "",
                             [
-                                "amplifyappb226a77f",
+                                "pythontesting",
                                 "-",
                                 {
                                     "Ref": "env"
@@ -80,13 +80,13 @@
                 "RoleName": {
                     "Fn::If": [
                         "ShouldNotCreateEnvResources",
-                        "amplifyappLambdaRolef2c45984",
+                        "amplifyappLambdaRolef483daec",
                         {
 
                             "Fn::Join": [
                                 "",
                                 [
-                                    "amplifyappLambdaRolef2c45984",
+                                    "amplifyappLambdaRolef483daec",
                                     "-",
                                     {
                                         "Ref": "env"
